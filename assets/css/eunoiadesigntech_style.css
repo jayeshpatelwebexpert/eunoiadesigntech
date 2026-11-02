@@ -1,0 +1,59 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Playfair Display", serif;
+}
+
+header {
+    background: #D4B483;
+    padding: 20px 0;
+}
+
+header .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .main-header .logo-header {}
+
+header .main-header .logo-header a {
+    display: block;
+}
+
+header .main-header .logo-header a img {}
+
+header .main-header .menu-header {}
+
+header .main-header .menu-header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header .main-header .menu-header ul li {
+    display: inline-block;
+}
+
+header .main-header .menu-header ul li a {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+header .main-header .menu-header ul li.btn-book {}
+
+header .main-header .menu-header ul li.btn-book a {
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 0 30px;
+}
